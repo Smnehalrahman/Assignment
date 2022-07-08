@@ -49,6 +49,9 @@
 }
 
     .button{
+         
+
+
         padding: 10px 30px;
         background-color: tomato;
         text-decoration: none;
@@ -216,9 +219,9 @@ border-color: tomato;
          .dona{
             display: flex;
             flex-direction: row;
-            
-            
-         }
+            padding-left:15%;
+             
+        }
          .donat1{
             width: 18%;
             padding: 30px;
@@ -243,3 +246,46 @@ border-color: tomato;
             margin-left: 25px;
             border-radius: 5px;
          }
+         .ft{
+padding-top: 2px; 
+font-family: 'Sriracha',cursive;
+height: 220px; 
+background-color: black;
+text-align: center;
+color: rgb(221, 25, 25);
+}
+.sml{
+    font-size: 14px;
+    color: white;
+}
+.email1{
+    height: 30vh;
+    background: rgb(240, 209, 152);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 45px 280px;
+
+
+}
+.email2{
+position: relative;
+}
+
+input[type="text"]
+{
+border: none;
+width: 450px;
+height: 40px;
+padding: 0 15px;
+ background-color: rgb(236, 234, 234);
+}
+button{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: red;
+    border: none;
+    padding: 0 15px;
+}
